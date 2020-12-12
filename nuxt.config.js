@@ -1,8 +1,8 @@
 const pkg = require('./package')
 
-module.exports = {
+export default {
   mode: 'universal',
-
+  telemetry: false,
   /*
   ** Headers of the page
   */
@@ -27,7 +27,9 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    'element-ui/lib/theme-chalk/reset.css',
+    // '~assets/css/main.css'
   ],
 
   /*
