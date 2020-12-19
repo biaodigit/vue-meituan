@@ -5,10 +5,11 @@
       <h1 class="title">vue-meituan</h1>
       <h2 class="subtitle">My transcendent Nuxt.js project</h2>
       <div class="links">
-        <a 
-          href="https://nuxtjs.org/" 
-          target="_blank" 
-          class="button--green">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green"
+        >
           Documentation
         </a>
         <a
@@ -24,13 +25,13 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue";
 
 export default {
   components: {
     Logo,
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -41,8 +42,8 @@ export default {
   align-items: center;
   text-align: center;
   .title {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system,
-      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    font-family: "Quicksand", "Source Sans Pro", -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
       sans-serif; /* 1 */
     display: block;
     font-weight: 300;
